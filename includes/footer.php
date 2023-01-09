@@ -1,52 +1,66 @@
-<footer class="container-fluid">
-	<div class="container">
+<footer>
+	<div class="container-fluid">
+		<div class="container">
 
-		<div class="row">
-			<div class="col-12 col-md-6 col-lg-4 offset-md-3 offset-lg-4 text-center">
-				LOFO FOOTER
-				<!-- <img class="img-fluid logo_footer" src="./img/footer/logo-ewig-footer.png" alt="logo ewig footer"> -->
+			<div class="row">
+
+				<div class="col-md-3 logo_footer">
+					<img 
+						class="img-fluid" 
+						src="<?= BASE ?>img/footer/teto-vinilico-logo-footer.png" 
+						alt="logo teto vinilico footer">
+				</div>
+
+				<div class="col-md-6 menu">
+					<ul>
+						<li><a target="_blank" rel="noopener" class="transition" href="#">PRODUCTOS</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="#">EMPRESA</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="#">BLOG</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="#">CONTACTO</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 rrss">
+					
+					<a 
+						class="transition" 
+						target="_blank" 
+						rel="noopener" 
+						href="<?= $_ENV['INSTAGRAM_CLIENT'] ?>">
+							<i class="fa-brands fa-square-instagram"></i>
+					</a>
+
+					<a 
+						class="transition" 
+						target="_blank" 
+						rel="noopener" 
+						href="<?= $_ENV['FACEBOOK_CLIENT'] ?>">
+							<i class="fa-brands fa-square-facebook"></i>
+					</a>
+
+					<a 
+						class="transition" 
+						target="_blank" 
+						rel="noopener" 
+						href="<?= $_ENV['WHATSAPP_CLIENT'] ?>">
+							<i class="fa-brands fa-square-whatsapp"></i>
+					</a>
+
+				</div>
+
 			</div>
+					
 		</div>
-
-		<div class="row">
-			<div class="col-md-3 offset-md-3 place">
-				<p>Buenos Aires, Argentina</p>
-			</div>
-
-			<div class="col-12 col-md-3 rrss">
-				
-				<a 
-					class="transition" 
-					target="_blank" 
-					rel="noopener" 
-					href="<?= $_ENV['INSTAGRAM_CLIENT'] ?>">
-						<i class="fa-brands fa-square-instagram"></i>
-				</a>
-
-				<a 
-					class="transition" 
-					target="_blank" 
-					rel="noopener" 
-					href="<?= $_ENV['FACEBOOK_CLIENT'] ?>">
-						<i class="fa-brands fa-square-facebook"></i>
-				</a>
-
-				<a 
-					class="transition" 
-					target="_blank" 
-					rel="noopener" 
-					href="<?= $_ENV['WHATSAPP_CLIENT'] ?>">
-						<i class="fa-brands fa-square-whatsapp"></i>
-				</a>
-
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12 libre">
-				<a class="transition" target="_blank" rel="noopener" href="https://librecomunicacion.net/">by LIBRE</a>
-			</div>
-		</div>
-		
 	</div>
+
+	<div class="container-fluid libre">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a class="transition" target="_blank" rel="noopener" href="https://librecomunicacion.net/">by LIBRE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </footer>
