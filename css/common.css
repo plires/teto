@@ -8,6 +8,12 @@
 /* Variables end */
 
 /* Fuentes */
+.jost_regular {
+  font-family: 'Jost'; 
+  font-weight: 400; 
+  font-style: normal;
+}
+
 .jost_medium {
   font-family: 'Jost'; 
   font-weight: 500; 
@@ -22,13 +28,13 @@
 
 .jost_bold {
   font-family: 'Jost'; 
-  font-weight: bold; 
+  font-weight: 700; 
   font-style: normal;
 }
 
-.raleway {
+.raleway_regular {
   font-family: 'Raleway'; 
-  font-weight: normal; 
+  font-weight: 400; 
   font-style: normal;
 }
 
@@ -46,18 +52,18 @@
 
 .raleway_bold {
   font-family: 'Raleway'; 
-  font-weight: bold; 
+  font-weight: 700; 
   font-style: normal;
 }
 /* Fuentes end */
 
 html, body { /* Para corregir el desbordamiento que causo la libreria AOS.js */
- overflow-x: hidden
+ overflow-x: hidden;
 }
 
 body {
-  font-family: 'Jost'; 
-  font-weight: 500; 
+  font-family: 'Jost', sans-serif; 
+  font-weight: 400; 
   font-style: normal;
   font-size: 16px;
 }
