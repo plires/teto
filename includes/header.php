@@ -7,7 +7,7 @@
 			<div class="col-md-12 content">
 
 				<a href="./">
-					<img class="logo" src="./img/header/teto-vinilico-logo.png" alt="logo teto vinilico">
+					<img class="logo img-fluid" src="<?= BASE ?>img/header/teto-vinilico-logo.png" alt="logo teto vinilico">
 				</a>
 				<i id="btn_menu" class="fa-solid fa-bars"></i>
 
