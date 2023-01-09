@@ -1,0 +1,150 @@
+/* Variables */
+:root {
+  --primary-color: rgba(211, 177, 141, 1);
+  --secondary-color: rgba(60, 67, 76, 1);
+  --light-color: rgba(240, 240, 240, 1);
+  --dark-color: rgba(178, 178, 178, 1);
+}
+/* Variables end */
+
+/* Fuentes */
+.jost_medium {
+  font-family: 'Jost'; 
+  font-weight: 500; 
+  font-style: normal;
+}
+
+.jost_semibold {
+  font-family: 'Jost'; 
+  font-weight: 600; 
+  font-style: normal;
+}
+
+.jost_bold {
+  font-family: 'Jost'; 
+  font-weight: bold; 
+  font-style: normal;
+}
+
+.raleway {
+  font-family: 'Raleway'; 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+.raleway_medium {
+  font-family: 'Raleway'; 
+  font-weight: 500; 
+  font-style: normal;
+}
+
+.raleway_semibold {
+  font-family: 'Raleway'; 
+  font-weight: 600; 
+  font-style: normal;
+}
+
+.raleway_bold {
+  font-family: 'Raleway'; 
+  font-weight: bold; 
+  font-style: normal;
+}
+/* Fuentes end */
+
+html, body { /* Para corregir el desbordamiento que causo la libreria AOS.js */
+ overflow-x: hidden
+}
+
+body {
+  font-family: 'Jost'; 
+  font-weight: 500; 
+  font-style: normal;
+  font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+/* Buttones */
+button,
+.btn-primary {
+  color: var(--primary-color);
+  background-color: white;
+  font-weight: 300;
+  border-color: var(--primary-color);
+  padding: 5px 30px;
+  border-radius: 0;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus,
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, 
+.btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle,
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, 
+.btn-primary.active:focus, .btn-primary:active:focus, .show > 
+.btn-primary.dropdown-toggle:focus {
+  color: var(--primary-color);
+  background-color: white;
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  border-color: transparent!important;
+  background: var(--primary-color);
+  color: white;
+}
+/* Buttones end */
+
+#app {
+  position: relative;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+
