@@ -124,6 +124,71 @@ button,
   position: relative;
 }
 
+/* Formulario de Contacto */
+.modulo_contacto {
+  background: var(--light-color);
+  padding: 30px 0 30px 0;
+  margin-bottom: 30px;
+}
+
+.modulo_contacto h2 {
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.modulo_contacto .content_input {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.modulo_contacto .content_input .invalid-feedback {
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.modulo_contacto .content_input label {
+  min-width: 90px;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: -5px;
+}
+
+.modulo_contacto .content_input .form-control {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px var(--dark-color);
+  padding-bottom: 0;
+}
+
+.modulo_contacto .content_button {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.modulo_contacto .content_button button {
+  font-size: 0.95rem;
+  font-weight: 700;
+  background: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.modulo_contacto .content_button button:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.modulo_contacto #spinner {
+  display: none;
+}
+/* Formulario de Contacto end */
 
 
 
@@ -131,6 +196,14 @@ button,
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
+
+  /* Formulario de Contacto */
+  .modulo_contacto {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+  }
+  /* Formulario de Contacto end */
 
 }
 
@@ -143,6 +216,13 @@ button,
 }
 
 @media (min-width: 1200px) {
+
+  /* Formulario de Contacto */
+  .modulo_contacto .content_input label {
+    font-size: 1.25rem;
+    min-width: 120px;
+  }
+  /* Formulario de Contacto end */
 
 }
 
