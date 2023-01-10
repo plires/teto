@@ -167,18 +167,6 @@
 }
 /* Ventajas end */
 
-/* Galería */
-.home .section_galeria {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.home .section_galeria .slick-slide {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-/* Galería end */
-
 /* Materiales Sustentables */
 .home .materiales_sustentables {
 	margin-bottom: 30px;
