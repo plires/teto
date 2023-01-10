@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var url = window.location.pathname;
 	var filename = url.substring(url.lastIndexOf('/')+1);
 
-	if ( filename === 'dejar vacio para el home o colocar el nombre de la pagina con su extencion' ) { // Scripts para page especifica
+	if ( filename === '' || filename === 'index.php' ) { // Scripts para page especifica
+
 		const btnSend = document.getElementById('send')
 		const spinner = document.getElementById('spinner');
 	  

@@ -114,6 +114,10 @@ button,
   background: var(--primary-color);
   color: white;
 }
+
+.form-control:focus {
+  box-shadow: none;
+}
 /* Buttones end */
 
 #app {

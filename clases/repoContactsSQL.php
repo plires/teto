@@ -16,17 +16,12 @@ class RepoContactsSQL extends repoContacts
 
     try {
 
-      $zone = isset($post['zone']) ? $post['zone'] : NULL;
-      $company = isset($post['company']) ? $post['company'] : NULL;
-      
-      $sql = "INSERT INTO contacts values(default, :name, :email, :phone, :comments, :zone, :company, :origin, :created_at)";
+      $sql = "INSERT INTO contacts values(default, :name, :email, :phone, :comments, :origin, :created_at)";
       $stmt = $this->conexion->prepare($sql);
       $stmt->bindValue(":name", $post['name'], PDO::PARAM_STR);
       $stmt->bindValue(":email", $post['email'], PDO::PARAM_STR);
       $stmt->bindValue(":phone", $post['phone'], PDO::PARAM_STR);
       $stmt->bindValue(":comments", $post['comments'], PDO::PARAM_STR);
-      $stmt->bindValue(":zone", $zone, PDO::PARAM_STR);
-      $stmt->bindValue(":company", $company, PDO::PARAM_STR);
       $stmt->bindValue(":origin", $post['origin'], PDO::PARAM_STR);
       $stmt->bindValue(":created_at", date("Y-m-d H:i:s"), PDO::PARAM_STR);
 

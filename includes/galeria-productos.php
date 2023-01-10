@@ -4,65 +4,82 @@
 			<div class="galeria slider-g">
 	      
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-a.jpg" alt="Galería Productos - a">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-1.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 1">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-b.jpg" alt="Galería Productos - b">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-2.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 2">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-c.jpg" alt="Galería Productos - c">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-3.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 3">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-d.jpg" alt="Galería Productos - d">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-4.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 4">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-e.jpg" alt="Galería Productos - e">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-5.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 5">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-f.jpg" alt="Galería Productos - f">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-6.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 6">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-g.jpg" alt="Galería Productos - g">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-7.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 7">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-h.jpg" alt="Galería Productos - h">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-8.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 8">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-i.jpg" alt="Galería Productos - i">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-9.jpg" 
+	        	alt="Galería Productos Cielorrasos Teto Vinilico - 9">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-j.jpg" alt="Galería Productos - j">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-10.jpg"
+	        	 alt="Galería Productos Cielorrasos Teto Vinilico - 10">
 	      </div>
 
 	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-k.jpg" alt="Galería Productos - k">
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-11.jpg"
+	        	 alt="Galería Productos Cielorrasos Teto Vinilico - 11">
 	      </div>
 
-	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-l.jpg" alt="Galería Productos - l">
-	      </div>
-
-	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-m.jpg" alt="Galería Productos - m">
-	      </div>
-
-	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-n.jpg" alt="Galería Productos - n">
-	      </div>
-
-	      <div>
-	        <img class="img-fluid" src="./img/productos/galeria/galeria-prod-o.jpg" alt="Galería Productos - o">
-	      </div>
-	      
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 <!-- Mensaje Exito -->
 <?php if (isset($msg_contacto)): ?>
-  <div id="msg_contacto" class="alert alert-success alert-dismissible fade show" role="alert">
+  <div data-aos="fade-up" id="msg_contacto" class="alert alert-success alert-dismissible fade show" role="alert">
     <strong>¡Datos recibidos!</strong>
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     <ul style="padding: 0;">

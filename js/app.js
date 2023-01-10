@@ -1,6 +1,4 @@
 import AOS from 'aos';
-import Swiper from './../node_modules/swiper/swiper-bundle.esm.browser.min.js';
-import { CountUp } from 'countup.js';
 
 const header = document.getElementsByTagName('header')[0]
 const nav = document.getElementsByTagName('nav')[0]
@@ -11,62 +9,6 @@ const arrowProduct = document.getElementById('arrow_product')
 
 var url = window.location.pathname;
 var filename = url.substring(url.lastIndexOf('/')+1);
-
-if ( 
-  filename === 'producto-hebe-schiebe.php' ||
-  filename === 'producto-inova.php' ||
-  filename === 'producto-compact.php' ||
-  filename === 'producto-sliding-7400.php' ||
-  filename === 'producto-new-elegans.php'
-  ) { 
-
-  var options = { // opciones para objetos CountUp
-    useEasing: true, 
-    useGrouping: true, 
-    separator: '.', 
-    decimal: '.', 
-    enableScrollSpy: true, 
-    suffix: '%'
-  }
-
-  var acusticoA = new CountUp('acustico_a', 90, options);
-  var acusticoB = new CountUp('acustico_b', 30, options);
-  var acusticoC = new CountUp('acustico_c', 70, options);
-
-  var termicoA = new CountUp('termico_a', 90, options);
-  var termicoB = new CountUp('termico_b', 50, options);
-  var termicoC = new CountUp('termico_c', 90, options);
-
-  var extremoA = new CountUp('extremo_a', 90, options);
-  var extremoB = new CountUp('extremo_b', 70, options);
-  var extremoC = new CountUp('extremo_c', 70, options);
-  
-}
-
-var swiper = new Swiper(".swiper", {
-  slidesPerView: 2,
-  // centeredSlides: true,
-  spaceBetween: 12,
-  autoplay: 
-  {
-    delay: 2000,
-  },
-  loop: true,
-  breakpoints: {
-    640: {
-      slidesPerView: 3,
-      spaceBetween: 20,
-    },
-    // 768: {
-    //   slidesPerView: 4,
-    //   spaceBetween: 40,
-    // },
-    // 1024: {
-    //   slidesPerView: 5,
-    //   spaceBetween: 50,
-    // },
-  },
-});
 
 AOS.init({
   // Global settings:
@@ -80,7 +22,7 @@ AOS.init({
   // throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
   
   // // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  // offset: 120, // offset (in px) from the original trigger point
+  offset: 120, // offset (in px) from the original trigger point
   // delay: 0, // values from 0 to 3000, with step 50ms
   // duration: 400, // values from 0 to 3000, with step 50ms
   // easing: 'ease', // default easing for AOS animations
@@ -147,27 +89,28 @@ function validateForm() {
   });
 }
 
-// Carrusel Aspiracional Home
-function galleryHome(imgs) {
+if ( filename === '' || filename === 'index.php' ) { 
+  
+  let btnsLines = document.querySelectorAll('.btn_line');
+  let contentsLines = document.querySelectorAll('.content_line');
 
-  var expandImg = document.getElementById("expandedImg");
-  var numberText = document.getElementById("number_text");
+  btnsLines.forEach(function (btn) {
+    btn.addEventListener('click', function() {
 
-  const srcNew = imgs.src.replace('small','large');
-  const text = imgs.getAttribute("data-text")
-  const number = imgs.getAttribute("data-number")
+      contentsLines.forEach(function (contentLine) {
+        contentLine.classList.remove('active')
+      })
 
-  var imgText = document.getElementById("img_text");
-  expandImg.src = srcNew; // Remplazamos la imagen
-  imgText.innerHTML = text; // Remplazamos el texto
-  numberText.innerHTML = number; // Remplazamos el numero
+      btnsLines.forEach(function (btnLine) {
+        btnLine.classList.remove('active')
+      })
 
-}
+      btn.classList.add('active')
+      eval(btn.dataset.line).classList.add('active')
 
-window.galleryHome = galleryHome; // hacemos la funcion global por webpack
-// Carrusel Aspiracional Home end
+    })
+  })
 
-if ( filename === '' ) { 
   // Plugin Slick (Carrousel logos) Funcion
   $('.galeria').slick({
     autoplay: true,
@@ -200,11 +143,9 @@ if ( filename === '' ) {
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
+
 }
 
 

@@ -1,70 +1,84 @@
 <?php
 	
   include('../includes/config.inc.php');
+  include('../includes/sanitization.php');
   include('../clases/app.php');
   
   require_once("../clases/repositorioSQL.php");
 
+  // Sanitizacion de inputs
+	$inputs = [
+    'origin' => $_POST['origin'],
+    'current' => $_POST['current'],
+    'name' => $_POST['name'],
+    'email' => $_POST['email'],
+    'phone' => $_POST['phone'],
+    'comments' => $_POST['comments'],
+    'token' => $_POST['token'],
+    'action' => $_POST['action']
+	];
+
+	$fields = [
+    'origin' => 'string',
+    'current' => 'string',
+    'name' => 'string',
+    'email' => 'email',
+    'phone' => 'string',
+    'comments' => 'string',
+    'token' => 'string',
+    'action' => 'string'
+	];
+
+	$data = sanitize( $inputs, $fields );
+
   $db = new RepositorioSQL();
 
 	$app = new App;
-	$data = $app->verifyRecaptcha($_POST);
+	$recaptcha = $app->verifyRecaptcha($data);
 
-	if($data['success'] == 1 && $data['score'] >= 0.5){
+	if($recaptcha['success'] == 1 && $recaptcha['score'] >= 0.5){
 
-		if ( isset($_POST['current']) ) {
-	  	$current = $_POST['current'];
+		if ( isset( $_POST['current'] ) ) {
+	  	$current = $data['current'];
 	  } else {
-	  	exit('Error inesperado, cargue la ´pagina nuevamente y vuelva a intentar.');
+	  	exit('Error inesperado, cargue la página nuevamente y vuelva a intentar.');
 	  }
 
 		// Verificamos si hay errores en el formulario
-	  if ($app->emptyInput( $_POST['name'])) {
+	  if ($app->emptyInput( $_POST['name']) ) {
 	    $errors['error_name']='Ingresa tu nombre';
 	  } else {
-	    $name = $_POST['name'];
+	    $name = $data['name'];
 	  }
 
 	  if (!$app->emailCheck( $_POST['email'])) {
 	    $errors['error_email']='Ingresa el mail :(';
 	  } else {
-	    $email = $_POST['email'];
+	    $email = $data['email'];
 	  }
 
 	  if ($app->emptyInput( $_POST['phone'])) {
 	    $errors['error_phone']='Ingresa tu teléfono';
 	  } else {
-	    $phone = $_POST['phone'];
-	  }
-
-	  if ( $app->emptyInput( isset($_POST['company']) ) && $current === 'arquitectos.php' ) {
-	    $errors['error_company']='Ingresa tu empresa o razón social';
-	  } else {
-	    $company = isset( $_POST['company'] );
-	  }
-
-	  if ( $app->emptyInput( isset($_POST['zone']) ) && $current === 'distribuidores.php' ) {
-	    $errors['error_zone']='Ingresa tu zaona de trabajo';
-	  } else {
-	    $zone = isset( $_POST['zone'] );
+	    $phone = $data['phone'];
 	  }
 
 	  if ($app->emptyInput( $_POST['comments'])) {
 	    $errors['error_comments']='Ingresa tu consulta';
 	  } else {
-	    $comments = $_POST['comments'];
+	    $comments = $data['comments'];
 	  }
 
 	  if (!isset($errors)) {
-	  	
+
 	  	//grabamos en la base de datos
-		  $save = $db->getRepoContacts()->saveContactFormContactInBDD($_POST);
+		  $save = $db->getRepoContacts()->saveContactFormContactInBDD($data);
 
 		  //Enviamos los mails al cliente y usuario
 		  $app = new App;
 
-		  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
-		  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST);
+		  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $data);
+		  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $data);
 
 		  if ($sendClient) {
 		  	
@@ -82,7 +96,7 @@
 
 	  } else {
 
-	  	$phone = $_POST['phone'];
+	  	$phone = $data['phone'];
 	  	header("Location: " . BASE . $current . "?name=$name&email=$email&phone=$phone&last_name=$last_name&errors=" . urlencode(serialize($errors)) . "#error");
 	  	exit;
 
