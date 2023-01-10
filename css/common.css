@@ -124,6 +124,24 @@ button,
   position: relative;
 }
 
+/* Comunes */
+.col-md-12 h2 {
+  background: var(--light-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+  font-size: 1.35rem;
+}
+
+.col-md-12 h2 br {
+  display: none;
+}
+
+.col-md-12 h2 span {
+  color: var(--primary-color);
+}
+/* Comunes end */
+
 /* Formulario de Contacto */
 .modulo_contacto {
   background: var(--light-color);
@@ -209,6 +227,14 @@ button,
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
 
+  /* Comunes */
+  .col-md-12 h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  /* Comunes end */
+
   /* Formulario de Contacto */
   .modulo_contacto {
     padding-top: 60px;
@@ -221,9 +247,23 @@ button,
 
 @media (min-width: 768px) {
 
+  /* Comunes */
+  .col-md-12 h2 {
+    font-size: 2rem;
+  }
+  /* Comunes end */
+
 }
 
 @media (min-width: 992px) {
+
+  /* Comunes */
+  .col-md-12 h2 {
+    font-size: 2.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* Comunes end */
 
 }
 
@@ -243,6 +283,14 @@ button,
 }
 
 @media (min-width: 1600px) {
+
+  /* Comunes */
+  .col-md-12 h2 {
+    font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* Comunes end */
 
 }
 
