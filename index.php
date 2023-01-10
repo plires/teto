@@ -159,7 +159,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="content_frase">
-							<p data-aos="fade-up">
+							<p class="raleway_medium" data-aos="fade-up">
 								Nuestras placas cuentan con 4 capas que forman un producto compacto, resistente y estético.
 							</p>
 						</div>
@@ -238,7 +238,7 @@
 					
 					<div class="col-md-8 content_data">
 						<h2 data-aos="fade-up">MATERIALES <br><span>SUSTENTABLES</span></h2>
-						<p data-aos="fade-up">
+						<p class="raleway_medium" data-aos="fade-up">
 							Nuestros productos son fabricados teniendo profundo respeto por el medio ambiente tanto en los procesos como en la elección de los materiales, siendo los mismos reciclables en un 100% .
 						</p>
 					</div>
