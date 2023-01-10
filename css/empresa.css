@@ -1,0 +1,146 @@
+/* Descripción */
+.empresa .descripcion {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.empresa .descripcion h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: var(--secondary-color);
+	text-align: center;
+}
+
+.empresa .descripcion .title {
+	margin-bottom: 10px;
+}
+
+.empresa .descripcion .data {
+	margin-bottom: 30px;
+}
+
+.empresa .descripcion .concepto {
+	text-align: center;
+}
+
+.empresa .descripcion .concepto h2 {
+	background: none;
+}
+
+.empresa .descripcion .concepto a {
+	background: none;
+	border: solid 1px var(--secondary-color);
+	color: var(--secondary-color);
+}
+
+.empresa .descripcion .concepto a:hover {
+	background: var(--secondary-color);
+	border: solid 1px var(--secondary-color);
+	color: white;
+}
+/* Descripción end */
+
+/* Formulario de Contacto */
+.empresa .modulo_contacto {
+	margin-bottom: 0;
+}
+/* Formulario de Contacto end */
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	/* Descripción */
+	.empresa .descripcion .data p:last-child {
+		margin-bottom: 0;
+	}
+
+	.empresa .descripcion .data p {
+		text-align: right;
+	}
+
+	.empresa .descripcion .data img {
+		height: 440px;
+		min-height: 440px;
+		object-fit: cover;
+	}
+	/* Descripción end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Descripción */
+	.empresa .descripcion {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.empresa .descripcion h1 {
+		font-size: 3rem;
+	}
+
+	.empresa .descripcion p {
+		font-size: 1.25rem;
+	}
+
+	.empresa .descripcion .data {
+		margin-bottom: 60px;
+	}
+
+	.empresa .descripcion .data img {
+		height: 512px;
+		min-height: 512px;
+	}
+	/* Descripción end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Descripción */
+	.empresa .descripcion h1 {
+		font-size: 3.5rem;
+	}
+
+	.empresa .descripcion .title {
+		margin-bottom: 25px;
+	}
+
+	.empresa .descripcion .data .col-md-6:first-child {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.empresa .descripcion .data img {
+		height: auto;
+		min-height: auto;
+	}
+	/* Descripción end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Descripción */
+	/*.empresa .descripcion .data img {
+		height: auto;
+		min-height: auto;
+	}*/
+	/* Descripción end */
+
+}
+
+@media (min-width: 1600px) {
+
+}

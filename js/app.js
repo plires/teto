@@ -111,6 +111,9 @@ if ( filename === '' || filename === 'index.php' ) {
     })
   })
 
+}
+
+if ( filename === '' || filename === 'index.php' || filename === 'empresa.php' ) {
   // Plugin Slick (Carrousel logos) Funcion
   $('.galeria').slick({
     autoplay: true,
