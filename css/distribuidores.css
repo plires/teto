@@ -1,0 +1,177 @@
+/* Slide */
+.distribuidores .slide .content_data h1 {
+	font-weight: 500;
+}
+/* Slide end */
+
+/* Descripción */
+.distribuidores .descripcion {
+	margin-bottom: 60px;
+}
+
+.distribuidores .descripcion p {
+	text-align: center;
+	margin-bottom: 0;
+}
+/* Descripción end */
+
+/* Tarjetas */
+.distribuidores .tarjetas {
+	margin-bottom: 60px;
+}
+
+.distribuidores .tarjetas .content_card {
+	border: solid 1px var(--dark-color);
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.distribuidores .tarjetas .col-md-6:last-child .content_card {
+	margin-bottom: 0;
+}
+
+.distribuidores .tarjetas .content_card .title {
+	margin-bottom: 20px;
+	color: var(--secondary-color);
+}
+
+.distribuidores .tarjetas .content_card .content_item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px var(--light-color);
+}
+
+.distribuidores .tarjetas .content_card .content_item:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: solid 1px transparent;
+}
+
+.distribuidores .tarjetas .content_card .icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: var(--dark-color);
+	margin-right: 10px;
+}
+
+.distribuidores .tarjetas .content_card a {
+	font-size: 0.85rem;
+	font-family: 'Jost'; 
+  font-weight: 500; 
+  font-style: normal;
+	display: inline-block;
+	color: var(--secondary-color);
+}
+
+.distribuidores .tarjetas .content_card a:hover {
+	color: var(--primary-color);
+}
+
+.distribuidores .tarjetas .content_card i {
+	color: white;
+}
+
+/* Ser Parte */
+.distribuidores .ser_parte {
+	background: var(--primary-color);
+}
+
+.distribuidores .ser_parte h2 {
+	color: white;
+}
+/* Ser Parte end */
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Tarjetas */
+	.distribuidores .tarjetas .content_card {
+		margin-bottom: 30px;
+	}
+
+	.distribuidores .tarjetas .col-md-6:last-child .content_card {
+		margin-bottom: 0;
+	}
+	/* Tarjetas end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Tarjetas */
+	.distribuidores .tarjetas .content_card {
+		min-height: 330px;
+	}
+
+	.distribuidores .tarjetas .col-md-6:nth-child(3) .content_card,
+	.distribuidores .tarjetas .col-md-6:nth-child(4) .content_card {
+		min-height: 280px;
+	}
+	/* Tarjetas end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Descripción */
+	.distribuidores .descripcion p {
+		font-size: 1.25rem;
+	}
+	/* Descripción end */
+
+	/* Tarjetas */
+	.distribuidores .tarjetas .content_card {
+		min-height: 316px;
+	}
+
+	.distribuidores .tarjetas .col-md-6:nth-child(3) .content_card,
+	.distribuidores .tarjetas .col-md-6:nth-child(4) .content_card {
+		min-height: 265px;
+	}
+	/* Tarjetas end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Tarjetas */
+	.distribuidores .tarjetas .content_card {
+		padding: 30px;
+	}
+
+	.distribuidores .tarjetas .content_card {
+		min-height: 345px;
+	}
+
+	.distribuidores .tarjetas .col-md-6:nth-child(3) .content_card,
+	.distribuidores .tarjetas .col-md-6:nth-child(4) .content_card {
+		min-height: 295px;
+	}
+
+	.distribuidores .tarjetas .content_card a {
+		font-size: 1rem;
+	}
+	/* Tarjetas end */
+	
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
