@@ -242,6 +242,29 @@ button,
 }
 /* Ser Parte end */
 
+/* Materiales Sustentables */
+.materiales_sustentables {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.materiales_sustentables .content_img {
+  margin-bottom: 10px;
+}
+
+.materiales_sustentables .content_img img {
+  max-width: 30%;
+}
+
+.materiales_sustentables .content_data p {
+  margin-bottom: 0;
+}
+
+.materiales_sustentables .content_data span {
+  color: var(--primary-color);
+}
+/* Materiales Sustentables end */
+
 
 
 
@@ -287,6 +310,12 @@ button,
   }
   /* Ser Parte end */
 
+  /* Materiales Sustentables */
+  .materiales_sustentables {
+    margin-bottom: 60px;
+  }
+  /* Materiales Sustentables end */
+
 }
 
 @media (min-width: 768px) {
@@ -296,6 +325,30 @@ button,
     font-size: 2rem;
   }
   /* Comunes end */
+
+  /* Materiales Sustentables */
+  .materiales_sustentables h2 {
+    font-size: 2rem;
+  }
+
+  .materiales_sustentables .content_img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .materiales_sustentables .content_img img {
+    max-width: 75%;
+    margin-bottom: 0;
+  }
+
+  .materiales_sustentables .content_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  /* Materiales Sustentables end */
 
 }
 
@@ -308,6 +361,16 @@ button,
     padding-bottom: 15px;
   }
   /* Comunes end */
+
+  /* Materiales Sustentables */
+  .materiales_sustentables h2 {
+    font-size: 2.5rem;
+  }
+
+  .materiales_sustentables .content_data p {
+    font-size: 1.25rem;
+  }
+  /* Materiales Sustentables end */
 
 }
 
@@ -335,6 +398,16 @@ button,
     padding-bottom: 20px;
   }
   /* Comunes end */
+
+  /* Materiales Sustentables */
+  .materiales_sustentables .content_data {
+    justify-content: space-evenly;
+  }
+
+  .materiales_sustentables h2 {
+    font-size: 3rem;
+  }
+  /* Materiales Sustentables end */
 
 }
 

@@ -149,29 +149,6 @@
 }
 /* Ventajas end */
 
-/* Materiales Sustentables */
-.home .materiales_sustentables {
-	margin-bottom: 30px;
-	padding: 0;
-}
-
-.home .materiales_sustentables .content_img {
-	margin-bottom: 10px;
-}
-
-.home .materiales_sustentables .content_img img {
-	max-width: 30%;
-}
-
-.home .materiales_sustentables .content_data p {
-	margin-bottom: 0;
-}
-
-.home .materiales_sustentables .content_data span {
-	color: var(--primary-color);
-}
-/* Materiales Sustentables end */
-
 /* Red Distribuidores */
 .home .distribuidores {
 	padding: 0;
@@ -252,12 +229,6 @@
 		font-size: 1rem;
 	}
 	/* Ventajas end */
-
-	/* Materiales Sustentables */
-	.home .materiales_sustentables {
-		margin-bottom: 60px;
-	}
-	/* Materiales Sustentables end */
 
 	/* Red Distribuidores */
 	.home .distribuidores h2 {
@@ -353,30 +324,6 @@
 	}
 	/* Ventajas	end */
 
-	/* Materiales Sustentables */
-	.home .materiales_sustentables h2 {
-		font-size: 2rem;
-	}
-
-	.home .materiales_sustentables .content_img {
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-	}
-
-	.home .materiales_sustentables .content_img img {
-		max-width: 75%;
-		margin-bottom: 0;
-	}
-
-	.home .materiales_sustentables .content_data {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-	}
-	/* Materiales Sustentables end */
-
 	/* Distribuidores	*/
 	.home .distribuidores img {
 		max-width: 100%;
@@ -418,17 +365,7 @@
 	}
 	/* Tecnología end */
 
-	/* Materiales Sustentables */
-	.home .materiales_sustentables h2 {
-		font-size: 2.5rem;
-	}
-
-	.home .materiales_sustentables .content_data p {
-		font-size: 1.25rem;
-	}
-	/* Materiales Sustentables end */
-
-
+	
 
 
 
@@ -449,17 +386,7 @@
 		font-size: 3.5rem;
 	}
 	/* Slide end */
-
-	/* Materiales Sustentables */
-	.home .materiales_sustentables .content_data {
-		justify-content: space-evenly;
-	}
-
-	.home .materiales_sustentables h2 {
-		font-size: 3rem;
-	}
-	/* Materiales Sustentables end */
-
+	
 }
 
 @media (min-width: 2000px) {
