@@ -1,7 +1,6 @@
 <?php
 	
 	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
   $current = 'productos';
   $product = 'linea_origens';
 
