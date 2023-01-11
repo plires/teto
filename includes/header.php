@@ -38,7 +38,7 @@
 						</li>
 
 						<li>
-							<a class="<?=($current === 'distribuidores') ? 'active' : ''?> transition" href="<?= BASE ?>empresa.php">Distribuidores</a>
+							<a class="<?=($current === 'distribuidores') ? 'active' : ''?> transition" href="<?= BASE ?>distribuidores.php">Distribuidores</a>
 						</li>
 
 						<li>
