@@ -1,0 +1,337 @@
+/* Descripción */
+.products .descripcion {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.products .descripcion h1 {
+	background: transparent;
+	font-size: 1.75rem;
+}
+
+.products .descripcion p {
+	text-align: center;
+}
+/* Descripción end */
+
+/* Líneas */
+.products .lineas {
+	margin-bottom: 50px;
+}
+
+.products .lineas h2 {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.products .lineas .img_show {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.products .lineas .img_show img {
+	object-position: 75% 50%;
+	object-fit: cover;
+	height: 200px;
+}
+
+
+.products .lineas .botonera {
+	flex-wrap: wrap;
+}
+
+.products .lineas .botonera span {
+	margin: 10px 15px 0 15px;
+	font-size: 1.125rem;
+	font-family: 'Jost'; 
+  font-weight: 400; 
+  font-style: normal;
+}
+
+.products .lineas .content_line {
+	display: none;
+	opacity: 0;
+  animation: fadein 1s;
+}
+
+.products .lineas .content_line.active {
+	display: flex;
+	opacity: 1;
+}
+/* Líneas end */
+
+/* Especificaciones Técnicas */
+.products .especificaciones {
+	margin-bottom: 60px;
+}
+
+.products .especificaciones .content_title {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 40px;
+}
+
+.products .especificaciones .content_img {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.products .especificaciones h3 {
+	text-align: center;
+	color: var(--secondary-color);
+	font-size: 1.15rem;
+	margin-bottom: 10px;
+}
+
+.products .especificaciones .content_medidas p,
+.products .especificaciones .content_caracteristicas p {
+	border-bottom: solid 1px var(--light-color);
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.products .especificaciones .content_caracteristicas p:last-child {
+	border-bottom: solid 1px transparent;
+}
+
+.products .especificaciones .content_caracteristicas {
+	margin-bottom: 30px;
+}
+/* Especificaciones Técnicas end */
+
+/* Otras Líneas */
+.products .otras_lineas {
+	margin-bottom: 0;
+	background: var(--light-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.products .otras_lineas h2 {
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.products .otras_lineas .content_lineas {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.products .otras_lineas .content_lineas a {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--dark-color);
+  margin: 0;
+  font-size: 1.125rem;
+  cursor: pointer;
+  border-left: solid 2px var(--dark-color);
+}
+
+.products .otras_lineas .content_lineas a:hover {
+	color: var(--secondary-color);
+}
+
+.products .otras_lineas .content_lineas a:first-child {
+  border-left: solid 2px transparent;
+  padding-left: 0;
+}
+
+.products .otras_lineas .content_lineas a:last-child {
+  border-right: solid 2px transparent;
+  padding-right: 0;
+}
+/* Otras Líneas end */
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+	/* Especificaciones Técnicas */
+	.products .especificaciones .content_img_medidas {
+		text-align: center;
+	}
+
+	.products .especificaciones .content_img_medidas img {
+		max-width: 65%;
+	}
+	/* Especificaciones Técnicas end */
+
+}
+
+@media (min-width: 576px) {
+
+	/* Líneas */
+	.products .lineas .botonera {
+		margin-bottom: 20px;
+	}
+
+	.products .lineas .img_show img {
+		object-position: initial;
+		object-fit: initial;
+		height: auto;
+	}
+	/* Líneas end */
+
+	/* Especificaciones Técnicas */
+	.products .especificaciones h3 {
+		font-size: 1.25rem;
+	}
+
+	.products .especificaciones .content_medidas p, 
+	.products .especificaciones .content_caracteristicas p {
+		text-align: left;
+	}
+
+	.products .especificaciones .content_medidas p:last-child, 
+	.products .especificaciones .content_caracteristicas p:last-child {
+		border-bottom: solid 1px var(--light-color);
+	}
+
+	.products .especificaciones .content_caracteristicas {
+		margin-bottom: 0;
+	}
+
+	.products .especificaciones .content_img_medidas {
+		margin-top: 40px;
+	}
+	/* Especificaciones Técnicas end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Descripción */
+	.products .descripcion h1 {
+		font-size: 2.5rem;
+	}
+
+	.products .descripcion p {
+		font-size: 1.25rem;
+	}
+	/* Descripción end */
+
+	/* Líneas */
+	.products .lineas .botonera {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.products .lineas .botonera span {
+		width: auto;
+	}
+	/* Líneas end */
+
+	/* Especificaciones Técnicas */
+	.products .especificaciones h3 {
+		font-size: 1.75rem;
+	}
+	/* Especificaciones Técnicas end */
+
+
+}
+
+@media (min-width: 992px) {
+
+	/* Descripción */
+	.products .descripcion h1 {
+		font-size: 3rem;
+	}
+	/* Descripción end */
+
+	/* Líneas */
+	.products .lineas .botonera {
+		margin-bottom: 30px;
+	}
+
+	.products .lineas .botonera span {
+		font-size: 1.25rem;
+	}
+	/* Líneas end */
+
+	/* Especificaciones Técnicas */
+	.products .especificaciones h3 {
+		font-size: 2.25rem;
+	}
+
+	.products .especificaciones .content_medidas p, 
+	.products .especificaciones .content_caracteristicas p {
+		font-size: 1.25rem;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	/* Especificaciones Técnicas end */
+
+	/* Otras Líneas */
+	.products .otras_lineas {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.products .otras_lineas .content_lineas a {
+		font-size: 1.25rem;
+	}
+	/* Otras Líneas end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Descripción */
+	.products .descripcion {
+		margin-bottom: 60px;
+	}
+	/* Descripción end */
+
+	/* Líneas */
+	.products .lineas {
+		margin-bottom: 60px;
+	}
+	/* Líneas end */
+
+	/* Especificaciones Técnicas */
+	.products .especificaciones .content_title {
+		margin-bottom: 60px;
+	}
+
+	.products .especificaciones h3 {
+		margin-bottom: 30px;
+	}
+
+	.products .especificaciones .content_img {
+		margin-bottom: 60px;
+	}
+
+	.products .especificaciones .content_img_medidas {
+		margin-top: 60px;
+	}
+	/* Especificaciones Técnicas end */
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Descripción */
+	.products .descripcion {
+		margin-top: 60px;
+	}
+
+	.products .descripcion h1 {
+		font-size: 3.5rem;
+	}
+	/* Descripción  end */
+
+}

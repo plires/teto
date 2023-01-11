@@ -56,7 +56,7 @@ function menuToggle() {
 /*HABILITAR ESTA FUNCION PARA QUE EL HEADER APAREZCA Y DESAPAREZCA EN FUNCION
 DEL SCROLL HACIA ARRIBA O ABAJO
 */
-var scrollVar = -200;
+var scrollVar = -125;
 window.addEventListener('scroll', function() {
 	if ( document.body.getBoundingClientRect().top >= scrollVar )
 		showlHeader()
@@ -89,7 +89,7 @@ function validateForm() {
   });
 }
 
-if ( filename === '' || filename === 'index.php' ) { 
+if ( filename === '' || filename === 'index.php' || filename === 'linea-origens.php' ) { 
   
   let btnsLines = document.querySelectorAll('.btn_line');
   let contentsLines = document.querySelectorAll('.content_line');
