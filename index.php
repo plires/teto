@@ -303,17 +303,7 @@
 		<!-- Red Distribuidores end -->
 
 		<!-- Ser Parte -->
-		<section class="container-fluid ser_parte">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 data-aos="fade-up">¿QUERÉS SER PARTE? <br>ESCRIBÍNOS</h2>
-						<a href="<?= BASE ?>/contacto.php" class="btn btn-primary transition">CONTACTO</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Ser Parte end -->
+		<?php include_once('./includes/modulo-ser-parte.php'); ?>
 
 	</section>
 	<!-- Contenido HOME end -->

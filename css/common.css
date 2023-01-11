@@ -215,6 +215,33 @@ button,
 }
 /* Galería end */
 
+/* Ser Parte */
+.ser_parte {
+  background: var(--dark-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.ser_parte h2 {
+  padding-top: 0;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.ser_parte a {
+  background: transparent;
+  border: solid 1px var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.ser_parte a:hover {
+  background: white;
+  border: solid 1px white!important;
+  color: var(--secondary-color);
+}
+/* Ser Parte end */
+
 
 
 
@@ -248,6 +275,17 @@ button,
     margin-bottom: 60px;
   }
   /* Formulario de Contacto end */
+
+  /* Ser Parte */
+  .ser_parte h2 {
+    margin-bottom: 20px;
+    padding-top: 0;
+  }
+
+  .ser_parte h2 br {
+    display: inline-block;
+  }
+  /* Ser Parte end */
 
 }
 

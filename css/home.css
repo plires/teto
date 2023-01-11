@@ -197,31 +197,6 @@
 }
 /* Red Distribuidores end */
 
-/* Ser Parte */
-.home .ser_parte {
-	background: var(--dark-color);
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-}
-
-.home .ser_parte h2 {
-	padding-top: 0;
-	background: transparent;
-	margin-bottom: 20px;
-}
-
-.home .ser_parte a {
-	background: transparent;
-	border: solid 1px var(--secondary-color);
-	color: var(--secondary-color);
-}
-
-.home .ser_parte a:hover {
-	background: white;
-	border: solid 1px white!important;
-}
-/* Ser Parte end */
 
 
 
@@ -300,18 +275,7 @@
 		max-width: 75%;
 	}
 	/* Red Distribuidores end */
-
-	/* Ser Parte */
-	.home .ser_parte h2 {
-		margin-bottom: 20px;
-		padding-top: 0;
-	}
-
-	.home .ser_parte h2 br {
-		display: inline-block;
-	}
-	/* Ser Parte end */
-
+	
 }
 
 @media (min-width: 768px) {
