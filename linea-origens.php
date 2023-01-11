@@ -51,7 +51,7 @@
 				<div class="row">
 
 					<div data-aos="fade-up" class="col-md-12">
-						<h2> COLECCIÓN ORIGENS</h2>
+						<h2>COLECCIÓN ORIGENS</h2>
 					</div>
 
 					<div data-aos="fade-up" class="col-md-12 botonera">
