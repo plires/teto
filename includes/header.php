@@ -22,13 +22,13 @@
 							<span id="btn_menu_products" class="transition">Productos<i id="arrow_product" class="fa-solid fa-angle-down"></i></span>
 							<ul id="content_products">
 								<li>
-									<a class="<?=($product === 'linea_origens') ? 'active' : ''?> transition" href="<?= BASE ?>linea-origenes.php">Línea Origens</a>
+									<a class="<?=($product === 'linea_origens') ? 'active' : ''?> transition" href="<?= BASE ?>linea-origens.php">Línea Origens</a>
 								</li>
 								<li>
 									<a class="<?=($product === 'linea_plus') ? 'active' : ''?> transition" href="<?= BASE ?>linea-plus.php">Línea Plus</a>
 								</li>
 								<li>
-									<a class="<?=($product === 'linea_woods') ? 'active' : ''?> transition" href="<?= BASE ?>linea-woods.php">Línea Woods</a>
+									<a class="<?=($product === 'linea_woods') ? 'active' : ''?> transition" href="<?= BASE ?>linea-wood.php">Línea Wood</a>
 								</li>						
 							</ul>
 						</li>
