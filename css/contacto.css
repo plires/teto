@@ -1,0 +1,115 @@
+/* Descripción */
+.contacto .descripcion {
+	margin-bottom: 25px;
+}
+
+.contacto .descripcion .data {
+	margin-bottom: 0;
+}
+
+.contacto .descripcion .data p {
+	text-align: center;
+	margin-bottom: 0;
+}
+/* Descripción end */
+
+/* Formulario de Contacto */
+.contacto .modulo_contacto {
+	background: white;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.contacto .modulo_contacto .formulario {
+	display: none;
+}
+
+.contacto .datos {
+	background: var(--light-color);
+	padding-top: 30px;
+}
+
+.contacto .content_data {
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.contacto .content_data a {
+	font-size: 1.125rem;
+	margin-bottom: 30px;
+	color: var(--secondary-color);
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.contacto .content_data a:hover {
+	color: var(--primary-color);
+}
+
+.contacto .content_data a:last-child {
+	margin-bottom: 0;
+}
+/* Formulario de Contacto end */
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	/* Formulario de Contacto */
+	.contacto .datos {
+		padding-top: 0;
+	}
+
+	.contacto .content_data {
+		align-items: flex-end;
+		text-align: right;
+	}
+	/* Formulario de Contacto end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Descripción */
+	.contacto .descripcion {
+		margin-bottom: 60px;
+	}
+
+	.empresa .descripcion .data p {
+		font-size: 1.25rem;
+	}
+	/* Descripción end */
+
+	/* Formulario de Contacto */
+	.contacto .modulo_contacto {
+		margin-bottom: 60px;
+	}
+
+	.contacto .content_data a {
+		font-size: 1.25rem;
+	}
+	/* Formulario de Contacto end */
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}

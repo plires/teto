@@ -3,7 +3,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var url = window.location.pathname;
 	var filename = url.substring(url.lastIndexOf('/')+1);
 
-	if ( filename === '' || filename === 'index.php' || filename === 'empresa.php' ) { // Scripts para page especifica
+	if ( 
+			filename === '' || 
+			filename === 'index.php' || 
+			filename === 'empresa.php' ||
+			filename === 'contacto.php'
+		) { // Scripts para page especifica
 
 		const btnSend = document.getElementById('send')
 		const spinner = document.getElementById('spinner');

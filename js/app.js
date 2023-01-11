@@ -113,7 +113,12 @@ if ( filename === '' || filename === 'index.php' ) {
 
 }
 
-if ( filename === '' || filename === 'index.php' || filename === 'empresa.php' ) {
+if ( 
+    filename === '' || 
+    filename === 'index.php' || 
+    filename === 'empresa.php' ||
+    filename === 'contacto.php'
+    ) {
   // Plugin Slick (Carrousel logos) Funcion
   $('.galeria').slick({
     autoplay: true,
