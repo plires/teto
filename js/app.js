@@ -89,7 +89,12 @@ function validateForm() {
   });
 }
 
-if ( filename === '' || filename === 'index.php' || filename === 'linea-origens.php' ) { 
+if ( 
+    filename === '' || 
+    filename === 'index.php' || 
+    filename === 'linea-origens.php' || 
+    filename === 'linea-wood.php' 
+    ) { 
   
   let btnsLines = document.querySelectorAll('.btn_line');
   let contentsLines = document.querySelectorAll('.content_line');
