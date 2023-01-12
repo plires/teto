@@ -313,7 +313,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="{base}/img/email/header-email-red.gif" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="{base}/img/email/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
