@@ -19,8 +19,8 @@
 			</div>
 
 			<div class="col-sm-6 content_medidas">
-				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">MEDIDA: </span>200mmx6000mmx8mm / 200mmx3000mmx8mm</p>
-				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">PAQUETE: </span>10 placas (12 m2)</p>
+				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">MEDIDA: </span>200mm x 5800mm x 8mm</p>
+				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">PAQUETE: </span>10 placas (11.6 m2)</p>
 				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">MONTAJE: </span>Macho/hembra</p>
 				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">ACABADO: </span>Barniz mate</p>
 				<p data-aos="fade-up" class="jost_regular"><span class="jost_medium">ACCESORIOS: </span>Remates</p>
@@ -35,7 +35,7 @@
 				<img 
 					data-aos="fade-up"
 					class="img-fluid" 
-					src="<?= BASE ?>img/productos/medidas.png" 
+					src="<?= BASE ?>img/productos/medidas.gif" 
 					alt="cielorrasos teto vinilico argentina medidas">
 			</div>
 						
