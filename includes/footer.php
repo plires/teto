@@ -13,10 +13,10 @@
 
 				<div class="col-md-6 menu">
 					<ul>
-						<li><a target="_blank" rel="noopener" class="transition" href="#">PRODUCTOS</a></li>
-						<li><a target="_blank" rel="noopener" class="transition" href="#">EMPRESA</a></li>
-						<li><a target="_blank" rel="noopener" class="transition" href="#">BLOG</a></li>
-						<li><a target="_blank" rel="noopener" class="transition" href="#">CONTACTO</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="<?= BASE ?>linea-origens.php">PRODUCTOS</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="<?= BASE ?>empresa.php">EMPRESA</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="<?= BASE ?>distribuidores.php">DISTRIBUIDORES</a></li>
+						<li><a target="_blank" rel="noopener" class="transition" href="<?= BASE ?>contacto.php">CONTACTO</a></li>
 					</ul>
 				</div>
 
