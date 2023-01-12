@@ -236,7 +236,7 @@
 					</div>
 
 					<div class="col-6 col-md-3">
-						<a href="#" target="_blank" rel="noopener">
+						<a href="https://depisos.com/" target="_blank" rel="noopener">
 						<img
 							data-aos="fade-up" 
 							class="img-fluid transition" 
@@ -246,7 +246,7 @@
 					</div>
 
 					<div class="col-6 col-md-3">
-						<a href="#" target="_blank" rel="noopener">
+						<a href="https://nordeco.com.ar/" target="_blank" rel="noopener">
 						<img
 							data-aos="fade-up" 
 							class="img-fluid transition" 
@@ -256,7 +256,7 @@
 					</div>
 
 					<div class="col-6 col-md-3">
-						<a href="#" target="_blank" rel="noopener">
+						<a href="http://pedraflex.com.ar/" target="_blank" rel="noopener">
 						<img
 							data-aos="fade-up" 
 							class="img-fluid transition" 
@@ -266,7 +266,7 @@
 					</div>
 
 					<div class="col-6 col-md-3">
-						<a href="#" target="_blank" rel="noopener">
+						<a href="https://pietrapanel.com.ar/" target="_blank" rel="noopener">
 						<img
 							data-aos="fade-up" 
 							class="img-fluid transition" 
@@ -275,6 +275,10 @@
 						</a>
 					</div>
 
+					<div class="col-md-12 content_button">
+						<a data-aos="fade-up" href="<?= BASE ?>contacto.php" class="btn btn-primary transition">¿QUERÉS SER PARTE?</a>
+					</div>
+					
 				</div>
 			</div>
 		</section>

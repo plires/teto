@@ -239,7 +239,7 @@ button,
 
 .ser_parte a:hover {
   background: white;
-  border: solid 1px white!important;
+  border: solid 1px var(--secondary-color)!important;
   color: var(--secondary-color);
 }
 /* Ser Parte end */
