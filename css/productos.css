@@ -294,11 +294,15 @@
 
 	/* Líneas */
 	.products .lineas {
-		margin-bottom: 60px;
+		margin-bottom: 100px;
 	}
 	/* Líneas end */
 
 	/* Especificaciones Técnicas */
+	.products .especificaciones {
+		margin-bottom: 100px;
+	}
+
 	.products .especificaciones .content_title {
 		margin-bottom: 60px;
 	}

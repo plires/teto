@@ -93,7 +93,8 @@ if (
     filename === '' || 
     filename === 'index.php' || 
     filename === 'linea-origens.php' || 
-    filename === 'linea-wood.php' 
+    filename === 'linea-wood.php' || 
+    filename === 'linea-plus.php'
     ) { 
   
   let btnsLines = document.querySelectorAll('.btn_line');
