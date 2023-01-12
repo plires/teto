@@ -80,7 +80,7 @@
 							<p data-aos="fade-up" class="raleway_regular">
 								Combinando el concepto de Diseño con la calidad y funcionalidad, presentamos nuestras líneas de Revestimientos Vinílicos para Techo.
 							</p>
-							<a data-aos="fade-up" href="#" class="transition btn btn-primary">VER PRODUCTOS</a>
+							<a data-aos="fade-up" href="<?= BASE ?>linea-origens.php" class="transition btn btn-primary">VER PRODUCTOS</a>
 						</div>
 
 					</div>

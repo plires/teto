@@ -39,7 +39,7 @@
 					<img class="img-fluid" src="<?= BASE ?>img/home/header-home.jpg" alt="header home teto vinilico cielorrasos">
 					<div class="content_data">
 						<h1>CONOCÉ EL TECHO <br>DEL FUTURO</h1>
-						<a href="#" class="btn btn-primary">RECIBIR EL CATÁLOGO</a>
+						<a href="<?= BASE ?>contacto.php" class="btn btn-primary">RECIBIR EL CATÁLOGO</a>
 					</div>
 				</div>
 			</div>
