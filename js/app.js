@@ -97,26 +97,52 @@ if (
     ) { 
   
   let btnsLines = document.querySelectorAll('.btn_line');
-  let contentsLines = document.querySelectorAll('.content_line');
 
   btnsLines.forEach(function (btn) {
     btn.addEventListener('click', function() {
 
-      contentsLines.forEach(function (contentLine) {
-        contentLine.classList.remove('active')
-      })
+      let siblings = getSiblings(btn); // obtengos los elementos hermanos del boton clickeado
 
-      btnsLines.forEach(function (btnLine) {
-        btnLine.classList.remove('active')
+      siblings.forEach(function (sibling) {
+        sibling.classList.remove('active')
       })
 
       btn.classList.add('active')
-      eval(btn.dataset.line).classList.add('active')
+      
+      let contentToShow = eval(btn.dataset.line)
+
+      siblings = getSiblings(contentToShow); // obtengos los elementos hermanos del div donde sera mostrado el contenido
+
+      siblings.forEach(function (sibling) {
+        sibling.classList.remove('active')
+      })
+
+      contentToShow.classList.add('active')
 
     })
   })
 
 }
+
+let getSiblings = function (e) {
+  // for collecting siblings
+  let siblings = []; 
+  // if no parent, return no sibling
+  if(!e.parentNode) {
+      return siblings;
+  }
+  // first child of the parent node
+  let sibling  = e.parentNode.firstChild;
+  
+  // collecting siblings
+  while (sibling) {
+      if (sibling.nodeType === 1 && sibling !== e) {
+          siblings.push(sibling);
+      }
+      sibling = sibling.nextSibling;
+  }
+  return siblings;
+};
 
 if ( 
     filename === '' || 
