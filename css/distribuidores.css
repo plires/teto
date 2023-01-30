@@ -134,7 +134,7 @@
 
 	/* Tarjetas */
 	.distribuidores .tarjetas .content_card {
-		min-height: 316px;
+		min-height: 326px;
 	}
 
 	.distribuidores .tarjetas .col-md-6:nth-child(3) .content_card,
@@ -153,7 +153,7 @@
 	}
 
 	.distribuidores .tarjetas .content_card {
-		min-height: 345px;
+		min-height: 364px;
 	}
 
 	.distribuidores .tarjetas .col-md-6:nth-child(3) .content_card,

@@ -75,7 +75,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://goo.gl/maps/k9vhvhFbXUQZh8qm7">Calle 56 N°4575 - San Martín - Buenos Aires
 									</a>
 								</div>
@@ -85,7 +85,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="tel:541163790009">(+54) 11 6379 0009
 									</a>
 								</div>
@@ -95,7 +95,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://api.whatsapp.com/send?phone=+5491131861604&text=Hola!%20Necesito%20hacer%20una%20consulta!">(+54) 9 11 3186 1604
 									</a>
 								</div>
@@ -105,7 +105,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="mailto:info@depisos.com">info@depisos.com
 									</a>
 								</div>
@@ -115,7 +115,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://depisos.com/">depisos.com
 									</a>
 								</div>
@@ -134,7 +134,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://goo.gl/maps/k9vhvhFbXUQZh8qm7">Calle 56 N°4575 - San Martín - Buenos Aires
 									</a>
 								</div>
@@ -144,7 +144,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://api.whatsapp.com/send?phone=+5491153117118&text=Hola!%20Necesito%20hacer%20una%20consulta!">(+54) 9 11 5311 7118
 									</a>
 								</div>
@@ -154,7 +154,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="mailto:info@nordeco.com.ar">info@nordeco.com.ar
 									</a>
 								</div>
@@ -164,7 +164,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://nordeco.com.ar/">nordeco.com.ar
 									</a>
 								</div>
@@ -183,7 +183,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="tel:541147518193">(+54) 11 4751 8193
 									</a>
 								</div>
@@ -193,7 +193,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://api.whatsapp.com/send?phone=+5491153460803&text=Hola!%20Necesito%20hacer%20una%20consulta!">
 											(+54) 9 11 5346-0803
 									</a>
@@ -204,7 +204,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://pietrapanel.com.ar/">
 											pietrapanel.com.ar
 									</a>
@@ -223,7 +223,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://goo.gl/maps/ei56jCKVg4K4zGTa9">Argentina N°4142 - San Justo - Buenos Aires
 									</a>
 								</div>
@@ -233,7 +233,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="https://api.whatsapp.com/send?phone=+5491157441044&text=Hola!%20Necesito%20hacer%20una%20consulta!">(+54) 9 11 5744 1044
 									</a>
 								</div>
@@ -243,7 +243,7 @@
 									<a
 										class="transition"
 										target="_blank" 
-										rel="noopener" 
+										rel="referral" 
 										href="mailto:info@pedraflex.com.ar">info@pedraflex.com.ar
 									</a>
 								</div>
@@ -255,6 +255,102 @@
 										target="_blank" 
 										rel="noopener" 
 										href="http://pedraflex.com.ar/">pedraflex.com.ar
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div data-aos="fade-up" class="col-md-6">
+							<div class="content_card">
+								
+								<h4 class="title raleway_bold">Polistore</h4>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://goo.gl/maps/ASnUErkgQKM4LutP6">Av. Diaz Velez 1867 - Lomas del Mirador - Buenos Aires
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-phone"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="tel:541144885953">+54 11 44885953 / +54 11 44886015
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-regular fa-envelope"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="mailto:ventas@polistore.com.ar">ventas@polistore.com.ar
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-globe"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://polistore.com.ar/">polistore.com.ar
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-brands fa-instagram"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://www.instagram.com/polistorearg/">@polistorearg
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div data-aos="fade-up" class="col-md-6">
+							<div class="content_card">
+								
+								<h4 class="title raleway_bold">Ecodeck</h4>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://goo.gl/maps/TJ6VSzcSp665ty9c6">Amenabar 618 - Belgrano - CABA
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-regular fa-envelope"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="mailto:info@ecodeck.com.ar">info@ecodeck.com.ar
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-globe"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="http://www.ecodeck.com.ar/">ecodeck.com.ar
 									</a>
 								</div>
 
