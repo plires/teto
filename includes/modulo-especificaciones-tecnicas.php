@@ -2,7 +2,7 @@
 	
 	<div class="row">
 		<div class="col-md-12 content_title">
-			<h2 data-aos="fade-up">ESPECIFIACIONES <span>TÉCNICAS</span></h2>
+			<h2 data-aos="fade-up">ESPECIFICACIONES <span>TÉCNICAS</span></h2>
 		</div>
 	</div>
 
