@@ -263,7 +263,7 @@ button,
 }
 
 .materiales_sustentables .content_data span {
-  color: var(--primary-color);
+  color: #96bc4d;
 }
 /* Materiales Sustentables end */
 
@@ -306,6 +306,7 @@ button,
   .ser_parte h2 {
     margin-bottom: 20px;
     padding-top: 0;
+    color: white;
   }
 
   .ser_parte h2 br {

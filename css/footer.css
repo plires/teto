@@ -61,7 +61,7 @@ footer .rrss a:first-child {
 }
 
 footer .libre {
-	background: var(--primary-color);
+	background: black;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: right;
