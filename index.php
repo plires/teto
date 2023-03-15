@@ -228,58 +228,76 @@
 
 		<!-- Red Distribuidores -->
 		<section class="container-fluid distribuidores">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-12">
-						<h2 data-aos="fade-up">RED DE <span>DISTRIBUIDORES</span></h2>
-					</div>
-
-					<div class="col-6 col-md-3">
-						<a href="https://depisos.com/" target="_blank" rel="noopener">
-						<img
-							data-aos="fade-up" 
-							class="img-fluid transition" 
-							src="<?= BASE ?>img/home/distribuidores-depisos.gif" 
-							alt="distribuidores cielorraso teto vinilico depisos">
-						</a>
-					</div>
-
-					<div class="col-6 col-md-3">
-						<a href="https://nordeco.com.ar/" target="_blank" rel="noopener">
-						<img
-							data-aos="fade-up" 
-							class="img-fluid transition" 
-							src="<?= BASE ?>img/home/distribuidores-nordeco.gif" 
-							alt="distribuidores cielorraso teto vinilico nordeco">
-						</a>
-					</div>
-
-					<div class="col-6 col-md-3">
-						<a href="http://pedraflex.com.ar/" target="_blank" rel="noopener">
-						<img
-							data-aos="fade-up" 
-							class="img-fluid transition" 
-							src="<?= BASE ?>img/home/distribuidores-pedra-flex.gif" 
-							alt="distribuidores cielorraso teto vinilico pedra flex">
-						</a>
-					</div>
-
-					<div class="col-6 col-md-3">
-						<a href="https://pietrapanel.com.ar/" target="_blank" rel="noopener">
-						<img
-							data-aos="fade-up" 
-							class="img-fluid transition" 
-							src="<?= BASE ?>img/home/distribuidores-pietra-panel.gif" 
-							alt="distribuidores cielorraso teto vinilico pietra-panel">
-						</a>
-					</div>
-
-					<div class="col-md-12 content_button">
-						<a data-aos="fade-up" href="<?= BASE ?>contacto.php" class="btn btn-primary transition">¿QUERÉS SER PARTE?</a>
-					</div>
-					
+			<div class="row">
+				
+				<div class="col-md-12">
+					<h2 data-aos="fade-up">RED DE <span>DISTRIBUIDORES</span></h2>
 				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="https://depisos.com/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-depisos.gif" 
+						alt="distribuidores cielorraso teto vinilico depisos">
+					</a>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="https://nordeco.com.ar/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-nordeco.gif" 
+						alt="distribuidores cielorraso teto vinilico nordeco">
+					</a>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="http://pedraflex.com.ar/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-pedra-flex.gif" 
+						alt="distribuidores cielorraso teto vinilico pedra flex">
+					</a>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="https://pietrapanel.com.ar/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-pietra-panel.gif" 
+						alt="distribuidores cielorraso teto vinilico pietra-panel">
+					</a>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="https://polistore.com.ar/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-polistore.gif" 
+						alt="distribuidores cielorraso teto vinilico polistore">
+					</a>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-2 content_logo">
+					<a href="http://www.ecodeck.com.ar/" target="_blank" rel="noopener">
+					<img
+						data-aos="fade-up" 
+						class="img-fluid transition" 
+						src="<?= BASE ?>img/home/distribuidores-ecodeck.gif" 
+						alt="distribuidores cielorraso teto vinilico ecodeck">
+					</a>
+				</div>
+
+				<div class="col-md-12 content_button">
+					<a data-aos="fade-up" href="<?= BASE ?>contacto.php" class="btn btn-primary transition">¿QUERÉS SER PARTE?</a>
+				</div>
+				
 			</div>
 		</section>
 		<!-- Red Distribuidores end -->
