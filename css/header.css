@@ -45,6 +45,10 @@ header #btn_menu {
   right: calc(var(--bs-gutter-x) * .5);
 }
 
+header #btn_menu.active {
+  color: white;
+}
+
 header.fixed #btn_menu {
   color: white;
 }
