@@ -22,6 +22,10 @@
 
 </head>
 <body>
+
+	<!-- Spinner -->
+	<?php include('includes/spinner.inc.php'); ?>
+	
 	<!-- Tag Manager Body -->
 	<?php include_once('includes/tag_manager_body.php'); ?>
 

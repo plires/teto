@@ -1,5 +1,10 @@
 import AOS from 'aos';
 
+window.addEventListener('load', function() {
+  var spinner = document.getElementById('spinner');
+  spinner.parentNode.removeChild(spinner);
+});
+
 const header = document.getElementsByTagName('header')[0]
 const nav = document.getElementsByTagName('nav')[0]
 const toggle = document.getElementById('btn_menu')
