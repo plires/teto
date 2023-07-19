@@ -131,6 +131,44 @@
 						<div data-aos="fade-up" class="col-md-6">
 							<div class="content_card">
 								
+								<h4 class="title raleway_bold">Ecodeck</h4>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://goo.gl/maps/TJ6VSzcSp665ty9c6">Amenabar 618 - Belgrano - CABA
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-regular fa-envelope"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="mailto:info@ecodeck.com.ar">info@ecodeck.com.ar
+									</a>
+								</div>
+
+								<div class="content_item">
+									<div class="icon"><i class="fa-solid fa-globe"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="http://www.ecodeck.com.ar/">ecodeck.com.ar
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div data-aos="fade-up" class="col-md-6">
+							<div class="content_card">
+								
 								<h4 class="title raleway_bold">Nordeco</h4>
 
 								<div class="content_item">
@@ -323,44 +361,6 @@
 							</div>
 						</div>
 
-						<div data-aos="fade-up" class="col-md-6">
-							<div class="content_card">
-								
-								<h4 class="title raleway_bold">Ecodeck</h4>
-
-								<div class="content_item">
-									<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
-									<a
-										class="transition"
-										target="_blank" 
-										rel="referral" 
-										href="https://goo.gl/maps/TJ6VSzcSp665ty9c6">Amenabar 618 - Belgrano - CABA
-									</a>
-								</div>
-
-								<div class="content_item">
-									<div class="icon"><i class="fa-regular fa-envelope"></i></div>
-									<a
-										class="transition"
-										target="_blank" 
-										rel="referral" 
-										href="mailto:info@ecodeck.com.ar">info@ecodeck.com.ar
-									</a>
-								</div>
-
-								<div class="content_item">
-									<div class="icon"><i class="fa-solid fa-globe"></i></div>
-									<a
-										class="transition"
-										target="_blank" 
-										rel="referral" 
-										href="http://www.ecodeck.com.ar/">ecodeck.com.ar
-									</a>
-								</div>
-
-							</div>
-						</div>
-						
 					</div>
 				</div>
 
