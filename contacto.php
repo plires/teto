@@ -77,8 +77,8 @@
 						<span class="raleway_medium">Teléfono:</span> 11 6379 0009
 					</a><br>
 
-					<a class="transition raleway_regular" href="mailto:info@tetoargentina.com" target="_blank" rel="noopener">
-						<span class="raleway_medium">Email:</span> info@tetoargentina.com
+					<a class="transition raleway_regular" href="mailto:info@tetoargentina.com.ar" target="_blank" rel="noopener">
+						<span class="raleway_medium">Email:</span> info@tetoargentina.com.ar
 					</a>
 
 				</div>
