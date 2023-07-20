@@ -144,6 +144,16 @@
 								</div>
 
 								<div class="content_item">
+									<div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+									<a
+										class="transition"
+										target="_blank" 
+										rel="referral" 
+										href="https://api.whatsapp.com/send?phone=542214348009&text=Hola!%20Necesito%20hacer%20una%20consulta!">(+54) 221 434 8009
+									</a>
+								</div>
+
+								<div class="content_item">
 									<div class="icon"><i class="fa-regular fa-envelope"></i></div>
 									<a
 										class="transition"
