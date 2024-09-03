@@ -1,17 +1,18 @@
 <?php
-	
-	require ('includes/config.inc.php');
-  $current = 'productos';
-  $product = 'linea_plus';
+
+require('includes/config.inc.php');
+$current = 'productos';
+$product = 'linea_plus';
 
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<!-- Tag Manager Head -->
 	<?php include_once("./includes/tag_manager_head.php"); ?>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Desarrollada para atender el segmento de obras y arquitectura de alta gama, la Línea Plus presenta colecciones inspiradas en la sofisticación de la madera y la resistencia del cemento.">
@@ -21,11 +22,12 @@
 	<?php include('includes/favicon.php'); ?>
 
 </head>
+
 <body>
 
 	<!-- Spinner -->
 	<?php include('includes/spinner.inc.php'); ?>
-	
+
 	<!-- Tag Manager Body -->
 	<?php include_once('includes/tag_manager_body.php'); ?>
 
@@ -75,30 +77,30 @@
 				<div data-aos="fade-up" class="col-md-12 img_show">
 
 					<div id="content_breeze_bold_bege" class="row content_line active">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-breeze-bege.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-breeze-bege.jpg"
 							alt="cielorrasos teto vinilico linea breeze_bold_bege">
 					</div>
 
 					<div id="content_breeze_light_bege" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-breeze-light-bege.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-breeze-light-bege.jpg"
 							alt="cielorrasos teto vinilico linea breeze_light_bege">
 					</div>
 
 					<div id="content_breeze_bold_marron" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-breeze-bold-marron.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-breeze-bold-marron.jpg"
 							alt="cielorrasos teto vinilico linea breeze_bold_marron">
 					</div>
 
 					<div id="content_breeze_light_marron" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-breeze-light-marron.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-breeze-light-marron.jpg"
 							alt="cielorrasos teto vinilico linea breeze_light_marron">
 					</div>
 
@@ -131,16 +133,16 @@
 				<div data-aos="fade-up" class="col-md-12 img_show">
 
 					<div id="content_linea_bege" class="row content_line active">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-linea-bege.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-linea-bege.jpg"
 							alt="cielorrasos teto vinilico linea content_linea_bege">
 					</div>
 
 					<div id="content_linea_marron" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-linea-marron.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-linea-marron.jpg"
 							alt="cielorrasos teto vinilico linea content_linea_marron">
 					</div>
 
@@ -173,16 +175,16 @@
 				<div data-aos="fade-up" class="col-md-12 img_show">
 
 					<div id="content_urban_silver" class="row content_line active">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-urban-silver.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-urban-silver.jpg"
 							alt="cielorrasos teto vinilico urban content_urban_silver">
 					</div>
 
 					<div id="content_urban_grafite" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-urban-grafite.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-urban-grafite.jpg"
 							alt="cielorrasos teto vinilico urban content_urban_grafite">
 					</div>
 
@@ -216,24 +218,58 @@
 				<div data-aos="fade-up" class="col-md-12 img_show">
 
 					<div id="content_agar_bege" class="row content_line active">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-agar-bege.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-agar-bege.jpg"
 							alt="cielorrasos teto vinilico agar content_agar_bege">
 					</div>
 
 					<div id="content_agar_castanho" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-agar-castanho.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-agar-castanho.jpg"
 							alt="cielorrasos teto vinilico agar content_agar_castanho">
 					</div>
 
 					<div id="content_agar_taupe" class="row content_line">
-						<img 
-							class="img-fluid" 
-							src="<?= BASE ?>img/productos/plus/plus-agar-taupe.jpg" 
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-agar-taupe.jpg"
 							alt="cielorrasos teto vinilico agar content_agar_taupe">
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- Lineas end -->
+
+		<!-- Lineas -->
+		<section class="container-fluid lineas line_plus">
+
+			<div class="container">
+				<div class="row">
+
+					<div data-aos="fade-up" class="col-md-12">
+						<h2>COLECCIÓN JUNGLE</h2>
+					</div>
+
+					<div data-aos="fade-up" class="col-md-12 botonera">
+						<span data-line="content_jungle_doma" class="transition btn_line active">DOMA</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div data-aos="fade-up" class="col-md-12 img_show">
+
+					<div id="content_jungle_doma" class="row content_line active">
+						<img
+							class="img-fluid"
+							src="<?= BASE ?>img/productos/plus/plus-jungle-doma.jpg"
+							alt="cielorrasos teto vinilico jungle content_jungle_doma">
 					</div>
 
 				</div>

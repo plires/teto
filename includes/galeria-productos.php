@@ -80,6 +80,13 @@
 	        	 alt="Galería Productos Cielorrasos Teto Vinilico - 11">
 	      </div>
 
+				<div>
+	        <img 
+	        	loading="lazy" class="img-fluid" 
+	        	src="<?= BASE ?>img/galeria/cielorraso-tetovinilico-12.jpg"
+	        	 alt="Galería Productos Cielorrasos Teto Vinilico - 12">
+	      </div>
+
 			</div>
 		</div>
 	</div>
